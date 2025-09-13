@@ -5,6 +5,17 @@ Deny Candra Kasuma | Sistem Informasi A | 2409116024
 Program ini adalah aplikasi sederhana untuk mengelola reservasi lapangan mini soccer. Data reservasi disimpan dalam ArrayList dengan isi berupa nama pemesan, tanggal, jam, dan lapangan. Pengguna dapat memilih menu utama yang berisi lima opsi: menambah reservasi, melihat daftar reservasi, mengubah data reservasi, menghapus reservasi, dan keluar dari program.
 
 Program berjalan dengan perulangan sehingga menu terus tampil sampai pengguna memilih keluar. Setiap menu dijalankan dengan input dari pengguna, lalu program menampilkan pesan sesuai hasilnya. Dengan cara ini, kode menerapkan konsep CRUD (Create, Read, Update, Delete) untuk mengelola data reservasi lapangan.
+
+<img width="422" height="182" alt="image" src="https://github.com/user-attachments/assets/4d3416c0-3066-4bc3-9563-27dca6ead11e" />
+
+Menerapkan packages, memisahkan class berdasarkan fungsinya
+
+main → berisi menu utama yang diakses user (Main)
+
+model → menyimpan struktur data (Reservasi)
+
+service → menyimpan logika bisnis CRUD (Service)
+
 ## Penjelasan Output
 Menu
 
